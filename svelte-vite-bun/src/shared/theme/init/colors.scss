@@ -1,0 +1,17 @@
+:root {
+	--black: #000;
+	--white: #fff;
+	--color-gray-1000: hsl(210deg, 25%, 96%);
+	--blue-1: #213547;
+
+	--color-link: #646cff;
+	--color-link-hover: #979df5;
+	--color-link-hover-light: #747bff;
+
+	/* Dark theme */
+	--color-back: var(--white);
+	--color-text: var(--blue-1);
+	--color-footer-back: var(--blue-1);
+
+	--color-outline: var(--white);
+}

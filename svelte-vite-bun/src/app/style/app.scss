@@ -1,0 +1,16 @@
+@import '../../shared/theme/index.scss';
+
+.app {
+  min-width: 320px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows:
+    min-content
+    auto
+    min-content
+	;
+
+  @media (min-width: $bp-max) {
+    justify-items: center;
+  }
+}

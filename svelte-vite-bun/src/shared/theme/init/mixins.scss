@@ -1,0 +1,10 @@
+@mixin container {
+	width: 100%;
+	max-width: 1280px;
+	padding: 0 24px;
+}
+
+@mixin padded-tb ($size) {
+	padding-top: $size;
+	padding-bottom: $size;
+}

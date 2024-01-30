@@ -1,0 +1,48 @@
+button {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	background-color: #1a1a1a;
+	cursor: pointer;
+
+	&:hover {
+		border-color: #646cff;
+	}
+
+	&:focus,
+	&:focus-visible {
+		outline: var(--color-outline) 1px solid;
+	}
+
+	/** Look as simple link */
+	&.link {
+		border-radius: 2px;
+		background-color: inherit;
+		padding: 0;
+		font-size: 1em;
+		color: var(--color-link);
+
+		&:hover {
+			border-color: transparent;
+			color: var(--color-link-hover);
+		}
+
+		&:focus,
+		&:focus-visible {
+			outline-offset: 4px;
+			outline-width: 1px;
+		}
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	button {
+		background-color: #f9f9f9;
+
+		&.link:hover {
+			color: var(--color-link-hover-light);
+		}
+	}
+}
